@@ -37,16 +37,19 @@ The analysis includes data preparation, summary statistics, visualization (bar c
    - Linear Regression I performed a linear regression analysis and plotted the regression line on top of the scatter plot to highlight the relationship between mouse weight and tumor volume.
 
 # Data Sources
-- Mouse_metadata.csv: Metadata containing mouse details like weight and sex.
-- Study_results.csv: Contains the tumor volume measurements for each time point across different drug regimens.
+- Mouse_metadata.csv: Contains details like mouse ID, drug regimen, sex, age, and weight.
+- Study_results.csv: Includes tumor volume and metastatic site data across time points.
 
 # How to Run
    1. Clone the repository:
        1. Open your terminal (Git Bash, Command Prompt, or any Git client).
        2. Use the cd command to navigate to the directory where you want to clone the repository.
        3. Run the following command to clone the repository: git clone link_provided
-  2. Ensure Pandas is installed on your machine.
+  2. Ensure Pandas, Matplotlib, SciPy, and NumPy is installed on your machine.
      - Install Pandas using pip if it's not already installed (pip install pandas).
+     - Install Matplotlib using pip if it's not already installed (pip install matplotlib).
+     - Install SciPy using pip if it's not already installed (pip install scipy).
+     - Install NumPy using pip if it's not already installed (pip install numpy).
   3. Open the cloned file in the Visual Studio Code:
        1. Go to file > Open Folder and navigate to the folder where you cloned the repository.
        2. Select the folder to open in VS code.
